@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 interface MobileNavProps {
   open: boolean;
@@ -38,22 +37,22 @@ function MobileNav({ open }: MobileNavProps) {
           </Link>
         </a>
 
-        <Image
+        <img
           src="/images/header/pixel-etherscan.png"
           className="w-16 my-2 cursor-pointer"
           alt=""
         />
-        <Image
+        <img
           src="/images/header/pixel-opensea.png"
           className="w-16 my-2 cursor-pointer"
           alt=""
         />
-        <Image
+        <img
           src="/images/header/pixel-twitter.png"
           className="w-16 my-2 cursor-pointer"
           alt=""
         />
-        <Image
+        <img
           src="/images/header/pixel-discord.png"
           className="w-16 my-2 cursor-pointer"
           alt="discord"
