@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About: NextPage = () => {
   return (
     <div>
-      <div className="bg-[#E9EDE6] h-screen">
+      <div className="bg-[#E9EDE6] h-full">
         <Header />
 
         <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] h-[950px] bg-fixed bg-cover bg-no-repeat max-lg:h-[1200px] max-[785px]:h-[1300px] max-[660px]:h-[1400px] max-[540px]:h-[1500px] max-[470px]:h-[1600px]  max-[400px]:h-[1650px]">
