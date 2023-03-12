@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { NextPage } from "next";
 import Navbar from "./BurgerNav";
+import Image from "next/image";
 
 const Header: NextPage = () => {
   return (
@@ -8,7 +9,7 @@ const Header: NextPage = () => {
       <header className="flex flex-row justify-between items-center bg-gradient-to-b from-black">
         <div>
           <Link href="/">
-            <img className="w-44" src="/images/logo.png" alt="logo" />
+            <Image className="w-44" src="/images/logo.png" alt="logo" />
           </Link>
         </div>
 
@@ -25,22 +26,22 @@ const Header: NextPage = () => {
         </div>
 
         <div className="flex flex-row justify-between w-48 mr-12 max-lg:hidden">
-          <img
+          <Image
             className="w-14 h-14 cursor-pointer"
             src="/images/header/pixel-etherscan.png"
             alt="etherscan"
           />
-          <img
+          <Image
             className="w-14 h-14 cursor-pointer"
             src="/images/header/pixel-opensea.png"
             alt="opensea"
           />
-          <img
+          <Image
             className="w-14 h-14 cursor-pointer"
             src="/images/header/pixel-twitter.png"
             alt="twitter"
           />
-          <img
+          <Image
             className="w-14 h-14 cursor-pointer"
             src="/images/header/pixel-discord.png"
             alt="discord"

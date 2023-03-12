@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import type { NextPage } from "next";
 import Header from "./components/Header";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
           viewport={{ once: true }}
           className="flex justify-center mt-20"
         >
-          <img className="logo" src="/images/logo.png" alt="logo" />
+          <Image className="logo" src="/images/logo.png" alt="logo" />
         </motion.div>
       </div>
     </div>

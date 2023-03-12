@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Team: NextPage = () => {
   const [showFirst, setShowFirst] = useState(false);
@@ -63,7 +64,7 @@ const Team: NextPage = () => {
               className="bg-black bg-opacity-40 mb-20 px-4 pb-4 rounded-3xl max-[1000px]:w-4/5 flex-col justify-center items-center"
             >
               <div className="flex justify-center">
-                <img className="w-96" src="/images/logo.png" alt="" />
+                <Image className="w-96" src="/images/logo.png" alt="" />
               </div>
               <div className="flex justify-center">
                 <p className="text-center w-[900px] max-[1000px]:w-[90%]">
@@ -90,19 +91,19 @@ const Team: NextPage = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
+                    <Image
                       className="w-7 -mr-4 ml-4 cursor-pointer"
                       src="/images/twitter-green.png"
                       alt=""
                     />
                   </a>
                 </p>
-                <img
+                <Image
                   className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl"
                   src="/images/gulo.jpg"
                   alt=""
                 />
-                <img
+                <Image
                   className="h-[385px] absolute top-11 -mt-2 cursor-pointer z-20 ml-20"
                   onClick={handleClick}
                   src="/images/Border/1.png"
@@ -117,7 +118,7 @@ const Team: NextPage = () => {
                     <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center">
-                        <img
+                        <Image
                           className="ml-[95px] mb-3 w-56"
                           src="/images/founder.png"
                           alt=""
@@ -126,7 +127,7 @@ const Team: NextPage = () => {
                         <p className="text-sm">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
+                          industry standard dummy text ever since the 1500s,
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book.
                         </p>
@@ -151,19 +152,19 @@ const Team: NextPage = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
+                    <Image
                       className="w-7 -mr-4 ml-4 cursor-pointer"
                       src="/images/twitter-green.png"
                       alt=""
                     />
                   </a>
                 </p>
-                <img
+                <Image
                   className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl"
                   src="/images/gulo.jpg"
                   alt=""
                 />
-                <img
+                <Image
                   className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20"
                   onClick={handleClick2}
                   src="/images/Border/2.png"
@@ -178,7 +179,7 @@ const Team: NextPage = () => {
                     <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center">
-                        <img
+                        <Image
                           className="ml-[95px] mb-3 w-56"
                           src="/images/nostroid.png"
                           alt=""
@@ -187,7 +188,7 @@ const Team: NextPage = () => {
                         <p className="text-sm">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
+                          industry standard dummy text ever since the 1500s,
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book.
                         </p>
@@ -212,19 +213,19 @@ const Team: NextPage = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
+                    <Image
                       className="w-7 -mr-4 ml-4 cursor-pointer"
                       src="/images/twitter_blue.png"
                       alt=""
                     />
                   </a>
                 </p>
-                <img
+                <Image
                   className="absolute w-80 border-[10px] border-[#69B3F0] z-20 ml-20 mt-5 rounded-xl shadow-xl"
                   src="/images/gulo.jpg"
                   alt=""
                 />
-                <img
+                <Image
                   className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20"
                   onClick={handleClick3}
                   src="/images/Border/3.png"
@@ -239,7 +240,7 @@ const Team: NextPage = () => {
                     <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center">
-                        <img
+                        <Image
                           className="ml-[95px] mb-3 w-56"
                           src="/images/developer2.png"
                           alt=""
@@ -248,7 +249,7 @@ const Team: NextPage = () => {
                         <p className="text-sm">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
+                          industry standard dummy text ever since the 1500s,
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book.
                         </p>
@@ -273,19 +274,19 @@ const Team: NextPage = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
+                    <Image
                       className="w-7 -mr-4 ml-4 cursor-pointer"
                       src="/images/twitter_pink.png"
                       alt=""
                     />
                   </a>
                 </p>
-                <img
+                <Image
                   className="absolute w-80 border-[10px] border-[#B65776] z-20 ml-20 mt-5 rounded-xl shadow-xl"
                   src="/images/gulo.jpg"
                   alt=""
                 />
-                <img
+                <Image
                   className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 ml-20"
                   onClick={handleClick4}
                   src="/images/Border/4.png"
@@ -300,7 +301,7 @@ const Team: NextPage = () => {
                     <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center">
-                        <img
+                        <Image
                           className="ml-[95px] mb-3 w-56"
                           src="/images/artist3.png"
                           alt=""
@@ -309,7 +310,7 @@ const Team: NextPage = () => {
                         <p className="text-sm">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
+                          industry standard dummy text ever since the 1500s,
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book.
                         </p>

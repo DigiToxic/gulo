@@ -10,6 +10,7 @@ import { ethers } from "ethers";
 import { keccak256 } from "ethers/lib/utils";
 import MerkleTree from "merkletreejs";
 import type { NextPage } from 'next';
+import Image from "next/image";
 
 
 export const addresses = [
@@ -75,7 +76,7 @@ const Mint: NextPage = () => {
       <header className="flex flex-row justify-between items-center bg-transparent">
         <div>
           <Link href="/">
-            <img className="w-44" src="/images/logo.png" alt="logo" />
+            <Image className="w-44" src="/images/logo.png" alt="logo" />
           </Link>
         </div>
 
@@ -114,17 +115,17 @@ const Mint: NextPage = () => {
 
       <footer className="flex flex-row justify-end">
         <div className="flex flex-row justify-between w-1/6">
-          <img
+          <Image
             className="w-9 h-9 cursor-pointer"
             src="/images/header/pixel-etherscan.png"
             alt="etherscan"
           />
-          <img
+          <Image
             className="w-9 h-9 cursor-pointer"
             src="/images/header/pixel-opensea.png"
             alt="opensea"
           />
-          <img
+          <Image
             className="w-9 h-9 cursor-pointer"
             src="/images/header/pixel-twitter.png"
             alt="twitter"
