@@ -22,7 +22,7 @@ const About: NextPage = () => {
                 Gulo Valley is an NFT project focused on building utility
                 through art, community, lore and experience. Hidden deep within
                 the heart of Gulo Valley consists of 2,222 vicious but cute
-                pixelated wolverines "Gulo" join as they venture on a journey
+                pixelated wolverines Gulo join as they venture on a journey
                 setting out to protect their homeland, hunt prey and search for
                 resources.
                 <br /> <br /> Following the journey expressed through pixel art
