@@ -201,10 +201,11 @@ const About: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="-mt-[94px]">
+          <div className="mt-[130px]">
           <Footer />
         </div>
+        </div>
+
       </div>
     </div>
   );
