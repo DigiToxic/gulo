@@ -8,13 +8,13 @@
 }
 
 html {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-	background-color: black;
-	overflow-x: hidden;
-	overflow-x: hidden;
+  background-color: black;
+  overflow-x: hidden;
+  overflow-x: hidden;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -23,17 +23,17 @@ body {
 }
 
 p {
-	color: white;
+  color: white;
   font-family: "Kongtext";
 }
 
 .logo {
   width: 800px;
-	z-index: 10;
+  z-index: 10;
 }
 
 .navbar {
-	background-color: rgb(233,237,230);
+  background-color: rgb(233, 237, 230);
 }
 
 .underline {
@@ -66,7 +66,7 @@ p {
 
 /* The thumb, or handle, of the scrollbar */
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(162,190,141);
+  background-color: rgb(162, 190, 141);
   border-radius: 10px;
 }
 
@@ -76,68 +76,73 @@ p {
 }
 
 .container {
-	max-width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_477015592b6f4dc6a84de19f00f367c9~mv2.png') repeat-x;
-	background-size: 50% 35vh;
-	animation: scroll-anim 15s linear infinite;
+  max-width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_477015592b6f4dc6a84de19f00f367c9~mv2.png")
+    repeat-x;
+  background-size: 50% 35vh;
+  animation: scroll-anim 15s linear infinite;
 }
 
 .container::before {
-	content: "";
-	width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_751b3138fd74447c880559420b9e59a6~mv2.png') repeat-x;
-	background-size: 50% 45vh;
-	animation: scroll-anim 14s linear infinite;
+  content: "";
+  width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_751b3138fd74447c880559420b9e59a6~mv2.png")
+    repeat-x;
+  background-size: 50% 45vh;
+  animation: scroll-anim 14s linear infinite;
 }
 
 .container::after {
-	content: "";
-	width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_3d8fa29fe9b4476fa76cf653c1401c93~mv2.png') repeat-x;
-	background-size: 50% 100vh;
-	animation: scroll-anim 2s linear infinite;
+  content: "";
+  width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_3d8fa29fe9b4476fa76cf653c1401c93~mv2.png")
+    repeat-x;
+  background-size: 50% 100vh;
+  animation: scroll-anim 2s linear infinite;
 }
 
 .middle {
-	width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_141307ef41b84bd98ddc6cab7fe1700c~mv2.png') repeat-x;
-	background-size: 50% 65vh;
-	animation: scroll-anim 8s linear infinite;
+  width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_141307ef41b84bd98ddc6cab7fe1700c~mv2.png")
+    repeat-x;
+  background-size: 50% 65vh;
+  animation: scroll-anim 8s linear infinite;
 }
 
 .middle:before {
-	content: "";
-	width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_877403bfe8d140e4909824ff208ab68b~mv2.png') repeat-x;
-	background-size: 50% 80vh;
-	animation: scroll-anim 6s linear infinite;
+  content: "";
+  width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_877403bfe8d140e4909824ff208ab68b~mv2.png")
+    repeat-x;
+  background-size: 50% 80vh;
+  animation: scroll-anim 6s linear infinite;
 }
 
 .middle::after {
-	content: "";
-	width: 100%;
-	height: 89.8vh;
-	position: absolute;
-	background: url('https://static.wixstatic.com/media/a67ef4_8dda86590ee64da99379c2065e677955~mv2.png') repeat-x;
-	background-size: 50% 120vh;
-	animation: scroll-anim 4s linear infinite;
+  content: "";
+  width: 100%;
+  height: 89.8vh;
+  position: absolute;
+  background: url("https://static.wixstatic.com/media/a67ef4_8dda86590ee64da99379c2065e677955~mv2.png")
+    repeat-x;
+  background-size: 50% 120vh;
+  animation: scroll-anim 4s linear infinite;
 }
 
-
 @keyframes scroll-anim {
-	100% {
-		background-position: -100% 0;
-	}
+  100% {
+    background-position: -100% 0;
+  }
 }
 
 .first-display {
@@ -164,72 +169,71 @@ p {
 
 .box {
   height: 0px;
-	width: 500px;
+  width: 500px;
   overflow: hidden;
-	margin-top: -30px;
+  margin-top: -30px;
   transition: height 0.5s ease;
-	z-index: -10;
-	border-radius: 24px;
+  z-index: -10;
+  border-radius: 24px;
 }
 
 @media (max-width: 600px) {
   .box {
-		width: 400px;
+    width: 400px;
   }
 }
 
 @media (max-width: 455px) {
   .box {
-		width: 350px;
+    width: 350px;
   }
 }
-
 
 .box.expanded {
   height: 650px;
-	z-index: -10;
+  z-index: -10;
 }
 
 @media (max-width: 600px) {
   .box.expanded {
-		height: 675px;
+    height: 675px;
   }
 }
 
 @media (max-width: 455px) {
   .box.expanded {
-		height: 720px;
+    height: 720px;
   }
 }
 
 .box.collapsed {
   height: 0px;
-	z-index: -10;
+  z-index: -10;
 }
 
 @media (max-width: 600px) {
   .description {
-		width: 370px;
-		margin-left: -195px;
+    width: 370px;
+    margin-left: -195px;
   }
 }
 
 @media (max-width: 455px) {
   .description {
-		width: 300px;
-		margin-left: -180px;
+    width: 300px;
+    margin-left: -180px;
   }
 }
 
 @media (max-width: 455px) {
-	.gulo {
-		width: 288px;
-	}
+  .gulo {
+    width: 288px;
+  }
 }
 
 @media (max-width: 455px) {
-	.borderLiane {
-		height: 330px;
-		width: 300px;
-	}
+  .borderLiane {
+    height: 330px;
+    width: 300px;
+  }
 }

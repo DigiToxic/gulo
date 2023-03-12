@@ -144,7 +144,7 @@ const Team: NextPage = () => {
               className="flex justify-center min-h-[350px] h-full"
             >
               <div className="z-30 drop-shadow-lg">
-                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center">
+                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center max-[600px]:left-10 max-[455px]:left-[30px] max-[455px]:w-72">
                   Nostroid Studio
                   <a
                     href="https://twitter.com/NostroidStudios"
@@ -159,12 +159,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl"
+                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[600px]:ml-10 max-[455px]:ml-8 gulo"
                   src="/images/gulo.jpg"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20"
+                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20 max-[600px]:ml-10 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
                   onClick={handleClick2}
                   src="/images/Border/2.png"
                   alt=""
@@ -174,12 +174,12 @@ const Team: NextPage = () => {
                     showFirst2 ? "expanded" : isCollapsed2 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px]  max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center">
+                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
-                          className="ml-[95px] mb-3 w-56"
+                          className="ml-[95px] mb-3 w-56 max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                           src="/images/nostroid.png"
                           alt=""
                         />
@@ -205,7 +205,7 @@ const Team: NextPage = () => {
               className="flex justify-center min-h-[350px] h-full"
             >
               <div className="z-30 drop-shadow-lg">
-                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center">
+                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center max-[600px]:left-10 max-[455px]:left-[30px] max-[455px]:w-72">
                   Digi | Toxic
                   <a
                     href="https://twitter.com/Digi_Toxic"
@@ -220,12 +220,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#69B3F0] z-20 ml-20 mt-5 rounded-xl shadow-xl"
+                  className="absolute w-80 border-[10px] border-[#69B3F0] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[600px]:ml-10 max-[455px]:ml-8 gulo"
                   src="/images/gulo.jpg"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20"
+                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20 max-[600px]:ml-10 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
                   onClick={handleClick3}
                   src="/images/Border/3.png"
                   alt=""
@@ -235,12 +235,12 @@ const Team: NextPage = () => {
                     showFirst3 ? "expanded" : isCollapsed3 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center">
+                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
-                          className="ml-[95px] mb-3 w-56"
+                          className="ml-[95px] mb-3 w-56 max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                           src="/images/developer2.png"
                           alt=""
                         />
@@ -266,7 +266,7 @@ const Team: NextPage = () => {
               className="flex justify-center min-h-[350px] h-full"
             >
               <div className="z-30 drop-shadow-lg">
-                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center">
+                <p className="relative text-center bg-black bg-opacity-20 rounded-full z-20 w-80 right-40 left-20 top-2 flex justify-center max-[600px]:left-10 max-[455px]:left-[30px] max-[455px]:w-72">
                   Krakenblack
                   <a
                     href="https://twitter.com/krakenkrakenk"
@@ -281,12 +281,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#B65776] z-20 ml-20 mt-5 rounded-xl shadow-xl"
+                  className="absolute w-80 border-[10px] border-[#B65776] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[600px]:ml-10 max-[455px]:ml-8 gulo"
                   src="/images/gulo.jpg"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 ml-20"
+                  className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 ml-20 max-[600px]:ml-10 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
                   onClick={handleClick4}
                   src="/images/Border/4.png"
                   alt=""
@@ -296,12 +296,12 @@ const Team: NextPage = () => {
                     showFirst4 ? "expanded" : isCollapsed4 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] z-0 px-60 py-[290px] -mt-4 -ml-[0px]">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center">
+                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
-                          className="ml-[95px] mb-3 w-56"
+                          className="ml-[95px] mb-3 w-56 max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                           src="/images/artist3.png"
                           alt=""
                         />
