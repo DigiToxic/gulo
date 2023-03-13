@@ -35,7 +35,7 @@ const About: NextPage = () => {
               </p>
 
               <img
-                className="absolute w-[600px] h-[455px] left-0 top-6"
+                className="absolute w-full h-[455px] left-0 top-6 max-lg:w-[90%] max-lg:left-[5%]"
                 src="/images/Border/1.png"
                 alt=""
               />
