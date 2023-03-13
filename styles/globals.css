@@ -20,6 +20,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-background-size: 1200px 1900px;
 }
 
 p {
@@ -56,10 +57,6 @@ p {
 
 .underline:hover::before {
   width: 100%;
-}
-
-::-webkit-background-size {
-  background-size: 1200px 800px ;
 }
 
 /* The container for the scrollbar */
@@ -226,7 +223,6 @@ p {
     margin-left: -225px;
   }
 }
-
 
 @media (max-width: 600px) {
   .description {
