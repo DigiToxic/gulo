@@ -58,6 +58,10 @@ p {
   width: 100%;
 }
 
+::-webkit-background-size {
+  background-size: 1200px 800px ;
+}
+
 /* The container for the scrollbar */
 ::-webkit-scrollbar {
   width: 0.5em;
