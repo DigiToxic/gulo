@@ -48,7 +48,7 @@ const About: NextPage = () => {
               className="w-[50%] mt-16 border-[3px] border-[#34593A] rounded-3xl max-[1351px]:w-[40%] max-lg:w-full max-lg:border-0"
             >
               <div className="overflow-x-hidden rounded-t-3xl">
-                <Marquee gradient={false} speed={200}>
+                <Marquee gradient={false} speed={200} className="rounded-t-3xl">
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
@@ -157,7 +157,7 @@ const About: NextPage = () => {
                 <Marquee
                   gradient={false}
                   speed={200}
-                  className="mt-[41.5px] max-[1100px]:mt-[51.5px]"
+                  className="mt-[41.5px] max-[1100px]:mt-[51.5px] rounded-b-3xl"
                 >
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
