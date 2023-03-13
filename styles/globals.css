@@ -251,5 +251,6 @@ p {
 }
 
 .background {
-  -webkit-background-size: 100% 100%;
+  -webkit-background-position: center center;
+  -webkit-background-size: 100% auto;
 }

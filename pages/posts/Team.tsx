@@ -54,7 +54,7 @@ const Team: NextPage = () => {
       <div className="bg-[#E9EDE6] h-full">
         <Header />
 
-        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] h-full bg-fixed bg-cover bg-no-repeat background">
+        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat background">
           <div className="flex justify-center">
             <motion.div
               initial={{ opacity: 0, y: "-100%" }}
@@ -174,8 +174,8 @@ const Team: NextPage = () => {
                     showFirst2 ? "expanded" : isCollapsed2 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px]  max-[600px]:px-52">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px]  max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
@@ -235,8 +235,8 @@ const Team: NextPage = () => {
                     showFirst3 ? "expanded" : isCollapsed3 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
@@ -296,8 +296,8 @@ const Team: NextPage = () => {
                     showFirst4 ? "expanded" : isCollapsed4 ? "collapsed" : ""
                   }`}
                 >
-                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
+                  <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
