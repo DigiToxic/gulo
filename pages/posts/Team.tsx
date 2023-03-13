@@ -114,7 +114,7 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px]">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52 rounded-3xl">
                       <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
                       <div className="-ml-52 mt-[200px] w-[420px] text-center description">
                         <img
