@@ -101,7 +101,7 @@ const About: NextPage = () => {
                 </Marquee>
               </div>
 
-              <div className="overflow-x-hidden">
+              <div className="overflow-x-hidden rounded-3xl">
                 <Marquee
                   gradient={false}
                   speed={200}
