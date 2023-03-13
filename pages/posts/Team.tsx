@@ -54,7 +54,7 @@ const Team: NextPage = () => {
       <div className="bg-[#E9EDE6] h-full">
         <Header />
 
-        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] relative top-0 bottom-0 right-0 left-0 h-full bg-fixed bg-cover bg-no-repeat">
+        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] h-full object-cover bg-fixed bg-cover bg-no-repeat">
           <div className="flex justify-center">
             <motion.div
               initial={{ opacity: 0, y: "-100%" }}
