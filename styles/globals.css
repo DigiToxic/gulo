@@ -20,7 +20,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-background-size: 1200px 800px;
+  -webkit-background-size: 100px 100px;
 }
 
 p {
