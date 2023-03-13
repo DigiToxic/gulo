@@ -35,7 +35,7 @@ const About: NextPage = () => {
               />
             </div>
 
-            <div className="w-[50%] mt-16 border-[3px] border-[#34593A] rounded-3xl max-[1351px]:w-[40%] max-lg:w-full">
+            <div className="w-[50%] mt-16 border-[3px] border-[#34593A] rounded-3xl max-[1351px]:w-[40%] max-lg:w-full max-lg:border-0">
               <div className="overflow-x-hidden rounded-t-3xl">
                 <Marquee gradient={false} speed={200}>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
