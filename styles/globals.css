@@ -251,5 +251,5 @@ p {
 }
 
 .background {
-  -webkit-background-size: 100px 100px;
+  -webkit-background-size: 100% 100%;
 }
