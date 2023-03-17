@@ -20,6 +20,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin: 0
 }
 
 p {
@@ -248,8 +249,4 @@ p {
     height: 330px;
     width: 300px;
   }
-}
-
-.background {
-  -webkit-background-position: center center;
 }
