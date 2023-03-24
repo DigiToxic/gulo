@@ -79,7 +79,7 @@ export default function Navbar() {
           <span
             className={`h-1 w-full bg-white rounded-lg cursor-pointer transform transition duration-300 ease-in-out ${
               open ? "rotate-45 translate-y-2.5" : ""
-            } ${open ? "fixed" : ""} ${open ? "w-[35px]" : "w-full"}`}
+            } ${open ? "fixed" : ""} ${open ? "w-[37px]" : "w-full"}`}
           />
           <span
             className={`h-1 w-full bg-white rounded-lg cursor-pointer transition-all duration-300 ease-in-out ${
@@ -89,7 +89,7 @@ export default function Navbar() {
           <span
             className={`h-1 w-full bg-white rounded-lg cursor-pointer transform transition duration-300 ease-in-out ${
               open ? "-rotate-45 -translate-y-2.5" : ""
-            } ${open ? "fixed" : ""} ${open ? "w-[35px]" : "w-full"} ${
+            } ${open ? "fixed" : ""} ${open ? "w-[37px]" : "w-full"} ${
               open ? "mt-[19px]" : ""
             } ${open ? "mr-[2px]" : ""}`}
           />

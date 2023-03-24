@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Header from "/pages/components/Header.tsx";
+import Footer from "../components/Footer";
 
 export const addresses = [
   "0x9A41426ae9C88110188276bAF8046dC420005249",
@@ -20,10 +20,10 @@ export const addresses = [
 
 const Mint = () => {
   return (
-    <div className="bg-[#E9EDE6] h-screen">
+    <div className="bg-[#E9EDE6] h-full">
       <Header />
 
-      <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat h-screen max-lg:h-[120vh]">
+      <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat">
         <div className="flex justify-center">
           {/*  <img
             className="w-[50%] mt-[180px]"
@@ -31,7 +31,7 @@ const Mint = () => {
             alt=""
           />*/}
 
-          <div className="relative bg-[#A2BE8D] bg-opacity-60 h-[500px] w-2/3 rounded-b-[60px] mt-24 max-lg:h-full">
+          <div className="relative bg-[#A2BE8D] bg-opacity-60 h-[500px] w-2/3 rounded-b-[60px] mt-24 max-lg:h-full mb-44">
             <div className="flex justify-center -mt-[67px] z-20">
               <img
                 className=" w-[390px] z-10 max-[1200px]:w-[300px]"
@@ -69,6 +69,9 @@ const Mint = () => {
             </div>
           </div>
         </div>
+        <div className="pb-6">
+            <Footer />
+          </div>
       </div>
     </div>
   );

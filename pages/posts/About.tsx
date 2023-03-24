@@ -11,7 +11,7 @@ const About: NextPage = () => {
         <Header />
 
         <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat max-lg:h-[1200px] max-[785px]:h-[1300px] max-[660px]:h-[1400px] max-[540px]:h-[1500px] max-[470px]:h-[1600px]  max-[400px]:h-[1650px]">
-          <div className="flex justify-evenly max-lg:flex-col">
+          <div className="flex justify-evenly mb-40 max-lg:flex-col">
             <motion.div
               initial={{ opacity: 0, x: "-100%" }}
               whileInView={{ opacity: 1, x: "0%" }}
@@ -212,7 +212,7 @@ const About: NextPage = () => {
               </div>
             </motion.div>
           </div>
-          <div className="mt-[130px]">
+          <div className="pb-8">
             <Footer />
           </div>
         </div>
