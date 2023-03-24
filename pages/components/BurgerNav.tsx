@@ -82,7 +82,7 @@ export default function Navbar() {
             } ${
               open ? "fixed" : ""
             } ${
-              open ? "w-[5%]" : "w-full"
+              open ? "w-[35px]" : "w-full"
             }`}
           />
           <span
@@ -96,7 +96,7 @@ export default function Navbar() {
             } ${
               open ? "fixed" : ""
             } ${
-              open ? "w-[5%]" : "w-full"
+              open ? "w-[35px]" : "w-full"
             } ${
               open ? "mt-[19px]" : ""
             } ${
