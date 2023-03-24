@@ -118,7 +118,7 @@ const Team: NextPage = () => {
                       <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
                         <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
-                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            className="ml-[95px] mt-1 mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[73px] max-[455px]:ml-[40px]"
                             src="/images/founder.png"
                             alt=""
                           />
@@ -180,7 +180,7 @@ const Team: NextPage = () => {
                       <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
                         <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
-                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            className="ml-[95px] mt-1 mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[73px] max-[455px]:ml-[37px]"
                             src="/images/nostroid.png"
                             alt=""
                           />
@@ -240,7 +240,7 @@ const Team: NextPage = () => {
                       <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
                         <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
-                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            className="ml-[95px] mt-1 mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[73px] max-[455px]:ml-[37px]"
                             src="/images/developer2.png"
                             alt=""
                           />
@@ -300,7 +300,7 @@ const Team: NextPage = () => {
                       <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
                         <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
-                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            className="ml-[95px] mt-1 mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[73px] max-[455px]:ml-[37px]"
                             src="/images/artist3.png"
                             alt=""
                           />
