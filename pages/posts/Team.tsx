@@ -114,9 +114,9 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 rounded-3xl max-[600px]:px-52">
-                      <div className="flex justify-center w-full mt-44 ml-[100px]">
-                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 rounded-3xl">
+                      <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
                             className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                             src="/images/founder.png"
@@ -176,9 +176,9 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] rounded-3xl z-0 -ml-[0px]  max-[600px]:px-52">
-                      <div className="flex justify-center w-full mt-44 ml-[100px]">
-                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] rounded-3xl z-0">
+                      <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
                             className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                             src="/images/nostroid.png"
@@ -236,9 +236,9 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] rounded-3xl z-0 max-[600px]:px-52">
-                      <div className="flex justify-center w-full mt-44 ml-[100px]">
-                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] rounded-3xl z-0">
+                      <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
                             className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                             src="/images/developer2.png"
@@ -296,9 +296,9 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] rounded-3xl z-0 max-[600px]:px-52">
-                      <div className="flex justify-center w-full mt-44 ml-[100px]">
-                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] rounded-3xl z-0">
+                      <div className="flex justify-center w-full mt-44 ml-[100px] max-[1210px]:ml-[110px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description max-[600px]:-ml-56">
                           <img
                             className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
                             src="/images/artist3.png"
