@@ -34,7 +34,7 @@ const Mint = () => {
           <div className="relative bg-[#A2BE8D] bg-opacity-60 h-[500px] w-2/3 rounded-b-[60px] mt-24 max-lg:h-full">
             <div className="flex justify-center -mt-[67px] z-20">
               <img
-                className=" w-[390px] z-20 max-[1200px]:w-[300px]"
+                className=" w-[390px] z-10 max-[1200px]:w-[300px]"
                 src="/images/logo.png"
                 alt="logo"
               />
