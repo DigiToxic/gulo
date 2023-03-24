@@ -103,7 +103,7 @@ const Team: NextPage = () => {
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-2 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[30px] max-[455px]:-mt-3 borderLiane"
+                  className="h-[385px] absolute top-11 -mt-2 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[1210px]:top-[50px] max-[600px]:ml-10 max-[455px]:ml-[30px] max-[455px]:-mt-3 borderLiane"
                   onClick={handleClick}
                   src="/images/Border/1.png"
                   alt=""
