@@ -114,22 +114,23 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0    -ml-[0px] rounded-3xl max-[600px]:px-52">
-                      <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
-                        <img
-                          className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
-                          src="/images/founder.png"
-                          alt=""
-                        />
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] z-0 rounded-3xl max-[600px]:px-52">
+                      <div className="flex justify-center w-full mt-44 ml-[100px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                          <img
+                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            src="/images/founder.png"
+                            alt=""
+                          />
 
-                        <p className="text-sm">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
+                          <p className="text-sm">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -175,20 +176,21 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px]  max-[600px]:px-52">
-                      <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
-                        <img
-                          className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
-                          src="/images/nostroid.png"
-                          alt=""
-                        />
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#768802] via-[#5D7100] to-[#34593A] rounded-3xl z-0 -ml-[0px]  max-[600px]:px-52">
+                      <div className="flex justify-center w-full mt-44 ml-[100px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                          <img
+                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            src="/images/nostroid.png"
+                            alt=""
+                          />
 
-                        <p className="text-sm mt-12">
-                          A group of web 3 artists focused on providing
-                          efficient work for the satisfaction of collectors and
-                          degenerates alike.
-                        </p>
+                          <p className="text-sm mt-12">
+                            A group of web 3 artists focused on providing
+                            efficient work for the satisfaction of collectors
+                            and degenerates alike.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -234,20 +236,21 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
-                      <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
-                        <img
-                          className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
-                          src="/images/developer2.png"
-                          alt=""
-                        />
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#69B3F0] via-[#458fd4] to-[#484A77] rounded-3xl z-0 max-[600px]:px-52">
+                      <div className="flex justify-center w-full mt-44 ml-[100px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                          <img
+                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            src="/images/developer2.png"
+                            alt=""
+                          />
 
-                        <p className="text-sm mt-12">
-                          Full time web3 developer aiming to build smart
-                          contract and websites for nft projects. Also sharing
-                          other spots like mods and premint hunter.
-                        </p>
+                          <p className="text-sm mt-12">
+                            Full time web3 developer aiming to build smart
+                            contract and websites for nft projects. Also sharing
+                            other spots like mods and premint hunter.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -293,22 +296,23 @@ const Team: NextPage = () => {
                   }`}
                 >
                   <div className="relative h-[650px] max-[600px]:h-[675px] max-[455px]:h-[720px] rounded-3xl">
-                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] rounded-3xl z-0 px-60 py-[290px] -mt-4 -ml-[0px] max-[600px]:px-52">
-                      <div className="flex justify-between w-96 -mt-24 -ml-[216px]"></div>
-                      <div className="-ml-52 mt-[200px] w-[420px] text-center description">
-                        <img
-                          className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
-                          src="/images/artist3.png"
-                          alt=""
-                        />
+                    <div className="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-[#e47097] via-[#A24B6F] to-[#5a2e40] rounded-3xl z-0 max-[600px]:px-52">
+                      <div className="flex justify-center w-full mt-44 ml-[100px]">
+                        <div className="-ml-52 mt-[200px] w-[420px] text-center description">
+                          <img
+                            className="ml-[95px] mb-3 w-56 max-[1210px]:ml-[95px] max-[600px]:ml-[80px] max-[455px]:ml-[37px]"
+                            src="/images/artist3.png"
+                            alt=""
+                          />
 
-                        <p className="text-sm">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
+                          <p className="text-sm">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
