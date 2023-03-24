@@ -16,7 +16,7 @@ function MobileNav({ open }: MobileNavProps) {
 
   return shouldRender ? (
     <div
-      className={`absolute top-0 bottom-0 right-0 h-screen w-[35%] z-20 bg-[#a2be8d] transform ${
+      className={`fixed top-0 bottom-0 right-0 h-screen w-[35%] z-20 bg-[#a2be8d] transform ${
         open ? "-translate-y-0" : "-translate-y-full"
       } transition-transform duration-300 ease-in-out filter  `}
     >
@@ -79,6 +79,10 @@ export default function Navbar() {
           <span
             className={`h-1 w-full bg-white rounded-lg cursor-pointer transform transition duration-300 ease-in-out ${
               open ? "rotate-45 translate-y-2.5" : ""
+            } ${
+              open ? "fixed" : ""
+            } ${
+              open ? "w-[5%]" : "w-full"
             }`}
           />
           <span
@@ -89,6 +93,14 @@ export default function Navbar() {
           <span
             className={`h-1 w-full bg-white rounded-lg cursor-pointer transform transition duration-300 ease-in-out ${
               open ? "-rotate-45 -translate-y-2.5" : ""
+            } ${
+              open ? "fixed" : ""
+            } ${
+              open ? "w-[5%]" : "w-full"
+            } ${
+              open ? "mt-[19px]" : ""
+            } ${
+              open ? "mr-[2px]" : ""
             }`}
           />
         </div>

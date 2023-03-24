@@ -44,7 +44,7 @@ const Mint = () => {
               src="/images/Border/x2.png"
               alt=""
             />
-            <div className="flex justify-evenly items-center mt-8 max-lg:flex-col">
+            <div className="flex justify-evenly items-center mt-8 max-lg:flex-col max-[1200px]:mt-12">
               <img
                 className="w-[350px] rounded-3xl shadow-2xl max-[1200px]:w-[300px] max-[701px]:w-[270px] max-[570px]:w-[240px]"
                 src="/images/gulo/gulo-gif.gif"
