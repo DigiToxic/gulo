@@ -56,6 +56,7 @@ const Mint = () => {
                   <script
                     type="module"
                     src="https://unpkg.com/struct-kits@0.0.996/dist/blocks/blocks.esm.js"
+                    async
                   ></script>
                   <struct-core
                     contract-address="0xDEc7263976B0652F0f93893F19499e0EcE52B08c"
