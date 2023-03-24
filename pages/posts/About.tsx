@@ -47,53 +47,53 @@ const About: NextPage = () => {
               viewport={{ once: true }}
               className="w-[50%] mt-16 border-[3px] border-[#34593A] max-[1351px]:w-[40%] max-lg:w-full max-lg:border-0"
             >
-              <div className="overflow-x-hidden rounded-t-3xl">
-                <Marquee gradient={false} speed={200} className="rounded-t-3xl">
+              <div className="overflow-x-hidden">
+                <Marquee gradient={false} speed={200}>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/15.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/20.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/21.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/47.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/49.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/56.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-b-3xl"
                       src="/images/gulo/82.png"
                       alt=""
                     />
@@ -153,57 +153,57 @@ const About: NextPage = () => {
                 </Marquee>
               </div>
 
-              <div className="overflow-x-hidden rounded-b-3xl max-lg:hidden">
+              <div className="overflow-x-hidden max-lg:hidden">
                 <Marquee
                   gradient={false}
                   speed={200}
-                  className="mt-[41.5px] max-[1100px]:mt-[51.5px] rounded-b-3xl"
+                  className="mt-[41.5px] max-[1100px]:mt-[51.5px]"
                 >
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/1816.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/GULOGENESISDING.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/IMG_3048.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/JIANG_CHI.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/JIANGCHI1.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/SPACESUIT.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
-                      className="rounded-3xl"
+                      className="rounded-t-3xl"
                       src="/images/gulo/VALK.png"
                       alt=""
                     />
