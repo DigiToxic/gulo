@@ -54,7 +54,7 @@ const Team: NextPage = () => {
       <div className="bg-[#E9EDE6] h-full">
         <Header />
 
-        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-center bg-no-repeat">
+        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat">
           <div className="flex justify-center">
             <motion.div
               initial={{ opacity: 0, y: "-100%" }}
@@ -67,9 +67,9 @@ const Team: NextPage = () => {
               </div>
               <div className="flex justify-center">
                 <p className="text-center w-[900px] max-[1000px]:w-[90%]">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BTC, making it over 2000 years old.
+                  The team is compose of 5 member. The founder, 2 artists as
+                  well as a developer and a marketer. Their goal is to create a
+                  ecosystem around their high quality pixel art Gulo
                 </p>
               </div>
             </motion.div>
@@ -98,12 +98,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
-                  src="/images/gulo.jpg"
+                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-[82px] mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
+                  src="/images/gulo/904.png"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-2 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[25px] borderLiane"
+                  className="h-[385px] absolute top-11 -mt-2 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[30px] max-[455px]:-mt-3 borderLiane"
                   onClick={handleClick}
                   src="/images/Border/1.png"
                   alt=""
@@ -159,12 +159,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
-                  src="/images/gulo.jpg"
+                  className="absolute w-80 border-[10px] border-[#768802] z-20 ml-[82px] mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
+                  src="/images/gulo/7.png"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20 max-[600px]:ml-10 max-[1210px]:ml-16 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
+                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-[82px] max-[600px]:ml-10 max-[1210px]:ml-16 max-[455px]:ml-[30px] max-[455px]:-mt-[15px] max-[455px]:h-[345px] borderLiane"
                   onClick={handleClick2}
                   src="/images/Border/2.png"
                   alt=""
@@ -184,12 +184,10 @@ const Team: NextPage = () => {
                           alt=""
                         />
 
-                        <p className="text-sm">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
+                        <p className="text-sm mt-12">
+                          A group of web 3 artists focused on providing
+                          efficient work for the satisfaction of collectors and
+                          degenerates alike.
                         </p>
                       </div>
                     </div>
@@ -220,12 +218,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#69B3F0] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
-                  src="/images/gulo.jpg"
+                  className="absolute w-80 border-[10px] border-[#69B3F0] z-20 ml-[82px] mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
+                  src="/images/gulo/1367.png"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
+                  className="h-[385px] absolute top-11 -mt-4 cursor-pointer z-20 ml-[82px] max-[1210px]:ml-[62px] max-[600px]:ml-10 max-[455px]:ml-[30px] borderLiane"
                   onClick={handleClick3}
                   src="/images/Border/3.png"
                   alt=""
@@ -245,12 +243,10 @@ const Team: NextPage = () => {
                           alt=""
                         />
 
-                        <p className="text-sm">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
+                        <p className="text-sm mt-12">
+                          Full time web3 developer aiming to build smart
+                          contract and websites for nft projects. Also sharing
+                          other spots like mods and premint hunter.
                         </p>
                       </div>
                     </div>
@@ -281,12 +277,12 @@ const Team: NextPage = () => {
                   </a>
                 </p>
                 <img
-                  className="absolute w-80 border-[10px] border-[#B65776] z-20 ml-20 mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
-                  src="/images/gulo.jpg"
+                  className="absolute w-80 border-[10px] border-[#B65776] z-20 ml-[82px] mt-5 rounded-xl shadow-xl max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-8 gulo"
+                  src="/images/gulo/83.png"
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 ml-20 max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[25px] max-[455px]:h-[350px] borderLiane"
+                  className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 ml-[82px] max-[1210px]:ml-16 max-[600px]:ml-10 max-[455px]:ml-[30px] borderLiane"
                   onClick={handleClick4}
                   src="/images/Border/4.png"
                   alt=""

@@ -10,7 +10,7 @@ const About: NextPage = () => {
       <div className="bg-[#E9EDE6] h-full">
         <Header />
 
-        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] relative top-0 bottom-0 right-0 left-0 bg-fixed bg-cover bg-no-repeat max-lg:h-[1200px] max-[785px]:h-[1300px] max-[660px]:h-[1400px] max-[540px]:h-[1500px] max-[470px]:h-[1600px]  max-[400px]:h-[1650px]">
+        <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat max-lg:h-[1200px] max-[785px]:h-[1300px] max-[660px]:h-[1400px] max-[540px]:h-[1500px] max-[470px]:h-[1600px]  max-[400px]:h-[1650px]">
           <div className="flex justify-evenly max-lg:flex-col">
             <motion.div
               initial={{ opacity: 0, x: "-100%" }}
@@ -35,8 +35,8 @@ const About: NextPage = () => {
               </p>
 
               <img
-                className="absolute w-full h-[455px] left-0 top-6 max-lg:w-[90%] max-lg:left-[5%]"
-                src="/images/Border/1.png"
+                className="absolute w-full h-[100px] left-0 top-6 max-lg:w-[85%] max-lg:left-[7.5%]"
+                src="/images/Border/x2.png"
                 alt=""
               />
             </motion.div>
@@ -52,49 +52,49 @@ const About: NextPage = () => {
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/15.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/20.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/21.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/47.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/49.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/56.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/82.png"
                       alt=""
                     />
                   </div>
@@ -111,42 +111,42 @@ const About: NextPage = () => {
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/94.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/126.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/132.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/144.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/152.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/400.png"
                       alt=""
                     />
                   </div>
@@ -162,49 +162,49 @@ const About: NextPage = () => {
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/1816.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/GULOGENESISDING.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/IMG_3048.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/JIANG_CHI.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/JIANGCHI1.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo2.jpg"
+                      src="/images/gulo/SPACESUIT.png"
                       alt=""
                     />
                   </div>
                   <div className="ml-[60px] w-48 max-[1351px]:w-40 max-[1100px]:w-44 max-lg:w-40 max-[470px]:w-36">
                     <img
                       className="rounded-3xl"
-                      src="/images/gulo.jpg"
+                      src="/images/gulo/VALK.png"
                       alt=""
                     />
                   </div>
