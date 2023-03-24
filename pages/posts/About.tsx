@@ -212,7 +212,7 @@ const About: NextPage = () => {
               </div>
             </motion.div>
           </div>
-          <div className="pb-8">
+          <div className="-mt-5">
             <Footer />
           </div>
         </div>
