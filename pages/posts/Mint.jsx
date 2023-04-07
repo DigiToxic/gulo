@@ -23,15 +23,15 @@ const Mint = () => {
     <div className="bg-[#E9EDE6] h-full">
       <Header />
 
-      <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat">
+      <div className="bg-[url(https://static.wixstatic.com/media/a67ef4_bead6a0cac024db6a9177a6d4aa2152d~mv2.png)] bg-fixed bg-cover bg-no-repeat h-full">
         <div className="flex justify-center">
-          {/*  <img
-            className="w-[50%] mt-[180px]"
+            <img
+            className="w-[50%] mt-[100px]"
             src="/images/gulo_coming_soon.png"
             alt=""
-          />*/}
+          />
 
-          <div className="relative bg-[#A2BE8D] bg-opacity-60 h-[500px] w-2/3 rounded-b-[60px] mt-24 max-lg:h-full mb-44">
+          {/*<div className="relative bg-[#A2BE8D] bg-opacity-60 h-[500px] w-2/3 rounded-b-[60px] mt-24 max-lg:h-full mb-44">
             <div className="flex justify-center -mt-[67px] z-20">
               <img
                 className=" w-[390px] z-10 max-[1200px]:w-[300px]"
@@ -67,9 +67,9 @@ const Mint = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
-        <div className="pb-6">
+        <div className="mt-52 pb-6">
             <Footer />
           </div>
       </div>
