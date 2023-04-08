@@ -110,7 +110,7 @@ const Team: NextPage = () => {
                 />
 
                 <img
-                  className="absolute top-[390px] left-[85px] mt-1 mb-3 w-56 z-20 max-[455px]:top-[370px] max-[455px]:left-[72px]"
+                  className="absolute top-[390px] left-[85px] mt-1 mb-3 w-56 z-20 max-[455px]:top-[370px] max-[455px]:left-[80px]"
                   src="/images/founder.png"
                   alt=""
                 />
@@ -174,7 +174,7 @@ const Team: NextPage = () => {
                 />
 
                 <img
-                  className="absolute top-[390px] left-[85px] mt-1 mb-3 w-56 z-20 max-[455px]:top-[370px] max-[455px]:left-[72px]"
+                  className="absolute top-[390px] left-[90px] mt-1 mb-3 w-56 z-20 max-[455px]:top-[370px] max-[455px]:left-[72px]"
                   src="/images/nostroid.png"
                   alt=""
                 />
@@ -299,7 +299,7 @@ const Team: NextPage = () => {
                   alt=""
                 />
                 <img
-                  className="h-[385px] absolute top-11 -mt-5 cursor-pointer z-20 borderLiane"
+                  className="h-[385px] absolute top-[50px] -mt-5 cursor-pointer z-20 borderLiane"
                   onClick={handleClick4}
                   src="/images/Border/4.png"
                   alt=""
